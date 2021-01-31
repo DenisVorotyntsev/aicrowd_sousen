@@ -1,5 +1,14 @@
-# template
-Simple template for new projects
+# SOUSEN
+
+Public solution for [SOUSEN](https://www.aicrowd.com/challenges/ai-blitz-5/problems/sousen)
+
+# What's all about? 
+
+We humans rely on our community's feedback and review for so many things. 
+When our friends tell us about their visit to the new restaurant, 
+we can gauge whether they had a positive or a negative experience. 
+When our family talks about the new movie, we can know whether they enjoyed it or not. 
+But do you think machines can identify sentiment based on the sound clips of reviews?
 
 # Create a Local Environment 
 
@@ -14,10 +23,7 @@ pip install -r requirements.txt
 sh scripts/train.sh
 ```
 
-
-# Pre-commit hooks 
-
+# Make prediction for test data
 ```python
-pre-commit install
-pre-commit run --all-files
+sh scripts/test.sh
 ```
